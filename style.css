@@ -1,0 +1,85 @@
+/* Page header styles */
+header {
+    background-color: blue;
+    color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+/* Search bar styles */
+#search-form {
+    display: flex;
+    gap: 10px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+#search-form button {
+    background-color: blue;
+    padding: 12px 22px;
+    border: black;
+    font-size: 16px;
+}
+
+/* Status Style */
+#status-message {
+    margin: 15px 0;
+}
+
+/* Show Gallery Styles, Flex as Needed */
+.show-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Show Card Styles */
+.show-card {
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.show-card h2 {
+    margin-top: 0;
+}
+
+.show-card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 15px;
+}
+
+
+
+/*Footer Styles*/
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: blue;
+}
+
+footer a{
+    color: black;
+}
+
